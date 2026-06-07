@@ -1,0 +1,15 @@
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  height: var(--progress-h);
+  background: linear-gradient(
+    90deg,
+    var(--aurora1),
+    var(--aurora3),
+    var(--aurora4)
+  );
+  box-shadow: 0 0 12px var(--aurora2), 0 0 24px var(--glow-v);
+  transition: width 0.1s linear;
+}

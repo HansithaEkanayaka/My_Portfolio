@@ -1,0 +1,73 @@
+.skills-section {
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(13, 13, 43, 0.6) 50%,
+    transparent 100%
+  );
+}
+
+.skills-cats {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.skill-cat-label {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text3);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.skill-cat-label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.skill-cat-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skill-pill-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;  /* Scales the SVG perfectly */
+  height: 20px; /* Scales the SVG perfectly */
+  font-size: 20px; /* Keeps backward compatibility if an emoji slips in */
+}
+.skill-pill {
+  padding: 0.65rem 1.3rem;
+  background: var(--glass);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text2);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: default;
+  transition: all 0.3s;
+}
+.skill-pill:hover {
+  background: rgba(124, 58, 237, 0.12);
+  border-color: rgba(167, 139, 250, 0.35);
+  color: var(--text);
+  box-shadow: 0 0 18px var(--glow-v), 0 4px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px) scale(1.04);
+}
+.skill-pill-icon {
+  font-size: 1rem;
+}

@@ -1,0 +1,30 @@
+#cursor {
+  position: fixed;
+  z-index: 9997;
+  pointer-events: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--neon);
+  transform: translate(-50%, -50%);
+  transition: width 0.2s, height 0.2s, background 0.2s;
+  mix-blend-mode: screen;
+}
+#cursor-ring {
+  position: fixed;
+  z-index: 9996;
+  pointer-events: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(99, 179, 237, 0.5);
+  transform: translate(-50%, -50%);
+  transition: width 0.25s, height 0.25s, border-color 0.25s;
+}
+
+@media (max-width: 768px) {
+  #cursor,
+  #cursor-ring {
+    display: none;
+  }
+}

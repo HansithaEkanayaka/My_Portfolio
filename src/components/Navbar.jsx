@@ -73,9 +73,7 @@ export default function Navbar() {
           <button className="theme-toggle" onClick={toggleTheme}>
             <i className={`fas ${lightTheme ? "fa-sun" : "fa-moon"}`} />
           </button>
-          <a href="public/Hansitha Ekanayaka CV.pdf" className="nav-cta" download>
-            <i className="fas fa-download" /> CV
-          </a>
+          <a href="public/Hansitha Ekanayaka CV.pdf" className="nav-cta" download><i className="fas fa-download" /> CV</a>
           <button className={`ham ${menuOpen ? "open" : ""}`} onClick={toggleMenu}>
             <span />
             <span />

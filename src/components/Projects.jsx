@@ -10,7 +10,7 @@ const PROJECTS = [
   {
     name: "VanGo – School Transport Platform",
     desc: "A full-stack school transportation ecosystem built for Sri Lanka. Parents track their child's van in real-time, get pickup/drop-off notifications, and message drivers securely. Drivers get route optimization, QR attendance scanning, and absence alerts — all in one platform.",
-    image: "public/img/vango.jpg",
+    image: "/img/vango.jpg",
     bgClass: "proj-bg-4",
     badge: "Group Project",
     stack: ["Flutter", "Fastify", "Supabase", "PostgreSQL", "FCM", "Socket.IO", "Google Maps API"],
@@ -21,7 +21,7 @@ const PROJECTS = [
   {
     name: "Smart Campus API",
     desc: "A RESTful API for managing a Smart Campus system — covering room management, IoT sensor registration, and historical sensor readings. Built with JAX-RS (Jersey 2.x) on Apache Tomcat 9, using thread-safe in-memory storage. Features HATEOAS navigation, clean error handling, and request logging via JAX-RS filters.",
-    image: "public/img/smartcampusapi.jpg",
+    image: "/img/smartcampusapi.jpg",
     bgClass: "proj-bg-5",
     badge: "REST API",
     stack: ["Java 11", "JAX-RS", "Jersey 2.x", "Tomcat 9", "Maven"],

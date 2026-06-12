@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import GithubActivity from "./components/GithubActivity";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import BackToTop from "./components/BackToTop";
@@ -40,6 +41,7 @@ export default function App() {
         <About />
         <Skills />
         <Projects />
+        <GithubActivity />
         <Contact />
       </main>
       <Footer />

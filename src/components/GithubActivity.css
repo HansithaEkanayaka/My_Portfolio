@@ -2,8 +2,14 @@
   padding: 6rem 1.5rem;
   max-width: 1200px;
   margin: 0 auto;
+  --ga-empty-cell: rgba(255, 255, 255, 0.05);
+  --ga-cell-border: rgba(255, 255, 255, 0.06);
 }
 
+body.light-theme .github-activity-section {
+  --ga-empty-cell: rgba(0, 0, 0, 0.06);
+  --ga-cell-border: rgba(0, 0, 0, 0.08);
+}
 .ga-header {
   text-align: center;
   margin-bottom: 3rem;

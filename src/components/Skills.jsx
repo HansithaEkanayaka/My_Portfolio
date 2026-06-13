@@ -23,7 +23,7 @@ const SKILL_CATEGORIES = [
     label: "🎨 Frontend Development",
     skills: [
       { icon: <SiReact       style={{ color: "#61DAFB" }} />, name: "React" },
-      { icon: <SiNextdotjs   style={{ color: "#ffffff" }} />, name: "Next.js" },
+      { icon: <SiNextdotjs   style={{ color: "var(--text)" }} />, name: "Next.js" },
       { icon: <SiTailwindcss style={{ color: "#06B6D4" }} />, name: "Tailwind CSS" },
       { icon: <SiHtml5       style={{ color: "#E34F26" }} />, name: "HTML5" },
       { icon: <SiCss        style={{ color: "#1572B6" }} />, name: "CSS" },
@@ -48,7 +48,7 @@ const SKILL_CATEGORIES = [
   {
     label: "🛠️ Tools & Platforms",
     skills: [
-      { icon: <SiGithub  style={{ color: "#ffffff" }} />, name: "GitHub" },
+      { icon: <SiGithub  style={{ color: "var(--text)" }} />, name: "GitHub" },
       { icon: <FaAws     style={{ color: "#FF9900" }} />, name: "AWS" },
       { icon: <SiPandas  style={{ color: "#150458" }} />, name: "Pandas" },
       { icon: <SiFigma   style={{ color: "#F24E1E" }} />, name: "Figma" },

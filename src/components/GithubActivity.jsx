@@ -5,7 +5,7 @@ const GITHUB_USERNAME = "HansithaEkanayaka";
 
 /* ── Blue colour levels ── */
 const LEVEL_COLORS = {
-  0: "rgba(255,255,255,0.05)",
+  0: "var(--ga-empty-cell)",
   1: "#cae8ff",
   2: "#79c0ff",
   3: "#1f6feb",

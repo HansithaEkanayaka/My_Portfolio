@@ -47,6 +47,17 @@ body.light-theme .foot-brand img {
   filter: brightness(0);
 }
 
+body.light-theme .skill-pill {
+  background: rgba(255, 255, 255, 0.7);
+  border-color: rgba(0, 0, 0, 0.12);
+  color: var(--text);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+body.light-theme .skill-pill:hover {
+  background: rgba(124, 58, 237, 0.08);
+  border-color: rgba(124, 58, 237, 0.3);
+}
+
 /* ── RESET & BASE ── */
 *,
 *::before,

@@ -20,17 +20,24 @@ const SKILL_CATEGORIES = [
     ],
   },
   {
-    label: "🌐 Web Development",
+    label: "🎨 Frontend Development",
     skills: [
       { icon: <SiReact       style={{ color: "#61DAFB" }} />, name: "React" },
       { icon: <SiNextdotjs   style={{ color: "#ffffff" }} />, name: "Next.js" },
       { icon: <SiTailwindcss style={{ color: "#06B6D4" }} />, name: "Tailwind CSS" },
       { icon: <SiHtml5       style={{ color: "#E34F26" }} />, name: "HTML5" },
-      { icon: <SiCss         style={{ color: "#1572B6" }} />, name: "CSS" },
+      { icon: <SiCss        style={{ color: "#1572B6" }} />, name: "CSS" },
+    ],
+  },
+  {
+    label: "⚙️ Backend Development",
+    skills: [
       { icon: <SiNodedotjs   style={{ color: "#339933" }} />, name: "Node.js" },
+      { icon: <SiPostgresql  style={{ color: "#4169E1" }} />, name: "PostgreSQL" }, 
       { icon: <SiFirebase    style={{ color: "#FFCA28" }} />, name: "Firebase" },
     ],
   },
+
   {
     label: "📱 Mobile App Development",
     skills: [

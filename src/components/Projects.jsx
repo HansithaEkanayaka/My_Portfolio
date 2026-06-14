@@ -14,8 +14,8 @@ const PROJECTS = [
     bgClass: "proj-bg-4",
     badge: "Group Project",
     stack: ["Flutter", "Fastify", "Supabase", "PostgreSQL", "FCM", "Socket.IO", "Google Maps API"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://github.com/bxnxrx/Vango_Parent_App",
+    githubUrl: "https://github.com/bxnxrx/Vango_Parent_App",
   },
 
   {
@@ -25,7 +25,7 @@ const PROJECTS = [
     bgClass: "proj-bg-5",
     badge: "REST API",
     stack: ["Java 11", "JAX-RS", "Jersey 2.x", "Tomcat 9", "Maven"],
-    liveUrl: "#",
+    liveUrl: "https://github.com/HansithaEkanayaka/Smart_Campus_API",
     githubUrl: "https://github.com/HansithaEkanayaka/Smart_Campus_API",
   },
   {
@@ -34,8 +34,8 @@ const PROJECTS = [
     emoji: "🧮",
     bgClass: "proj-bg-1",
     stack: ["Kotlin", "Android", "Jetpack", "Room DB"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://github.com/HansithaEkanayaka/Cross_Math_Puzzle_Game",
+    githubUrl: "https://github.com/HansithaEkanayaka/Cross_Math_Puzzle_Game",
   },
 ];
 

@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import Loader from "./components/Loader";
 import Cursor from "./components/Cursor";
 import ProgressBar from "./components/ProgressBar";
@@ -46,6 +47,7 @@ export default function App() {
       </main>
       <Footer />
       <BackToTop />
+      <Analytics />
     </>
   );
 }

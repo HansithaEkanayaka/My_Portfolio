@@ -1,57 +1,60 @@
 import "./Skills.css";
 
 import {
-  SiPython, SiKotlin, SiPostgresql, SiJavascript, SiTypescript,
-  SiReact, SiNextdotjs, SiTailwindcss, SiHtml5, SiCss,
-  SiNodedotjs, SiFirebase, SiAndroidstudio, SiGithub, SiPandas, SiFigma
+  SiPython, SiKotlin, SiJavascript, SiTypescript,
+  SiReact, SiTailwindcss, SiHtml5, SiCss, SiFlutter,
+  SiNodedotjs, SiFirebase, SiSupabase, SiMysql, SiMongodb, SiPostgresql,
+  SiAndroidstudio, SiGithub, SiFigma, SiIntellijidea, SiApachenetbeanside, SiGooglecolab
 } from "react-icons/si";
-import { FaJava, FaAws } from "react-icons/fa";
+import { FaJava, FaAws,FaGitAlt } from "react-icons/fa";
+import { VscVscode } from "react-icons/vsc";
 
 const SKILL_CATEGORIES = [
   {
     label: "⚡ Programming Languages",
     skills: [
-      { icon: <FaJava        style={{ color: "#E32C32" }} />, name: "Java" },
       { icon: <SiPython      style={{ color: "#3776AB" }} />, name: "Python" },
-      { icon: <SiKotlin      style={{ color: "#7F52FF" }} />, name: "Kotlin" },
-      { icon: <SiPostgresql  style={{ color: "#4169E1" }} />, name: "SQL" },
+      { icon: <FaJava        style={{ color: "#E32C32" }} />, name: "Java" },
       { icon: <SiJavascript  style={{ color: "#F7DF1E" }} />, name: "JavaScript" },
       { icon: <SiTypescript  style={{ color: "#3178C6" }} />, name: "TypeScript" },
+      { icon: <SiKotlin      style={{ color: "#7F52FF" }} />, name: "Kotlin" },
     ],
   },
   {
-    label: "🎨 Frontend Development",
+    label: "🎨 Frontend & Mobile",
     skills: [
       { icon: <SiReact       style={{ color: "#61DAFB" }} />, name: "React" },
-      { icon: <SiNextdotjs   style={{ color: "var(--text)" }} />, name: "Next.js" },
       { icon: <SiTailwindcss style={{ color: "#06B6D4" }} />, name: "Tailwind CSS" },
       { icon: <SiHtml5       style={{ color: "#E34F26" }} />, name: "HTML5" },
       { icon: <SiCss        style={{ color: "#1572B6" }} />, name: "CSS" },
+      { icon: <SiFlutter    style={{ color: "#02569B" }} />, name: "Flutter" },
     ],
   },
   {
-    label: "⚙️ Backend Development",
+    label: "⚙️ Backend & Databases",
     skills: [
       { icon: <SiNodedotjs   style={{ color: "#339933" }} />, name: "Node.js" },
-      { icon: <SiPostgresql  style={{ color: "#4169E1" }} />, name: "PostgreSQL" }, 
-      { icon: <SiFirebase    style={{ color: "#FFCA28" }} />, name: "Firebase" },
-    ],
-  },
-
-  {
-    label: "📱 Mobile App Development",
-    skills: [
-      { icon: <SiAndroidstudio style={{ color: "#3DDC84" }} />, name: "Android Studio" },
-      { icon: <SiKotlin        style={{ color: "#7F52FF" }} />, name: "Kotlin" },
-    ],
-  },
-  {
-    label: "🛠️ Tools & Platforms",
-    skills: [
-      { icon: <SiGithub  style={{ color: "var(--text)" }} />, name: "GitHub" },
       { icon: <FaAws     style={{ color: "#FF9900" }} />, name: "AWS" },
-      { icon: <SiPandas  style={{ color: "#150458" }} />, name: "Pandas" },
+      { icon: <SiMysql      style={{ color: "#4479A1" }} />, name: "MySQL" },
+      { icon: <SiMongodb    style={{ color: "#47A248" }} />, name: "MongoDB" },
+      { icon: <SiPostgresql style={{ color: "#4169E1" }} />, name: "SQL" },
+      { icon: <SiFirebase    style={{ color: "#FFCA28" }} />, name: "Firebase" },
+      { icon: <SiSupabase   style={{ color: "#3ECF8E" }} />, name: "Supabase" },
+    ],
+  },
+  {
+    label: "🛠️ Tools & IDEs",
+    skills: [
+      { icon: <FaGitAlt           style={{ color: "#F05032" }} />, name: "Git" },
+      { icon: <SiGithub  style={{ color: "var(--text)" }} />, name: "GitHub" },
       { icon: <SiFigma   style={{ color: "#F24E1E" }} />, name: "Figma" },
+      { icon: <VscVscode          style={{ color: "#007ACC" }} />, name: "VS Code" },
+      { icon: <SiIntellijidea     style={{ color: "#000000" }} />, name: "IntelliJ IDEA" },
+      { icon: <SiAndroidstudio style={{ color: "#3DDC84" }} />, name: "Android Studio" },
+      { icon: <SiApachenetbeanside style={{ color: "#1B6AC6" }} />, name: "Apache NetBeans" },
+      { icon: <SiGooglecolab style={{ color: "#F9AB00" }} />, name: "Google Colab" },
+
+      
     ],
   },
 ];

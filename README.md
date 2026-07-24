@@ -111,6 +111,8 @@ npm run preview
 - **Smart Campus API -**  Java 11, JAX-RS, Jersey 2.x, Tomcat 9, Maven | [GitHub ↗](https://github.com/HansithaEkanayaka/Smart_Campus_API)
 - **Cross Math Puzzle Game -** Kotlin, Android, Jetpack | [GitHub ↗](https://github.com/HansithaEkanayaka/Cross_Math_Puzzle_Game)
 - **Meal Prepare Application -** Kotlin, Android, Jetpack, Room DB, Coroutines | [GitHub ↗](https://github.com/HansithaEkanayaka/Meal_Prepare_Application)
+- **BuildX -** HTML5, CSS3, JavaScript | Group Project [GitHub ↗](https://github.com/HansithaEkanayaka/BuildX)
+
 
 ---
  

@@ -33,9 +33,18 @@ const PROJECTS = [
     desc: "An interactive brain-training Android game where players solve cross-shaped arithmetic puzzles. Features multiple difficulty levels, hints, and a leaderboard — keeping players engaged with every session.",
     emoji: "🧮",
     bgClass: "proj-bg-1",
-    stack: ["Kotlin", "Android", "Jetpack", "Room DB"],
+    stack: ["Kotlin", "Android", "Jetpack"],
     liveUrl: "https://github.com/HansithaEkanayaka/Cross_Math_Puzzle_Game",
     githubUrl: "https://github.com/HansithaEkanayaka/Cross_Math_Puzzle_Game",
+  },
+  {
+    name: "Meal Prepare Application",
+    desc: "A meal-prep Android app that fetches meals from TheMealDB, saves them locally, and lets users search offline. Built under a strict no-third-party-library constraint — pure Compose UI, Room persistence, and HttpURLConnection networking.",
+    emoji: "🍽️",
+    bgClass: "proj-bg-1",
+    stack: ["Kotlin", "Android", "Jetpack", "Room DB ,Coroutines"],
+    liveUrl: "https://github.com/HansithaEkanayaka/Meal_Prepare_Application",
+    githubUrl: "https://github.com/HansithaEkanayaka/Meal_Prepare_Application",
   },
 ];
 

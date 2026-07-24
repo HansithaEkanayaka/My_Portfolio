@@ -109,8 +109,9 @@ npm run preview
 ## 📌 Featured Projects
 - **VanGo – School Transport Platform -** Flutter, Fastify, Supabase, PostgreSQL, Socket.IO | Group Project
 - **Smart Campus API -**  Java 11, JAX-RS, Jersey 2.x, Tomcat 9, Maven | [GitHub ↗](https://github.com/HansithaEkanayaka/Smart_Campus_API)
-- **Cross Math Puzzle Game -** Kotlin, Android, Jetpack, Room DB | Android App |
- 
+- **Cross Math Puzzle Game -** Kotlin, Android, Jetpack | [GitHub ↗](https://github.com/HansithaEkanayaka/Cross_Math_Puzzle_Game)
+- **Meal Prepare Application -** Kotlin, Android, Jetpack, Room DB, Coroutines | [GitHub ↗](https://github.com/HansithaEkanayaka/Meal_Prepare_Application)
+
 ---
  
 ## 📧 Contact 

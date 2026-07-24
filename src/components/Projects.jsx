@@ -46,6 +46,15 @@ const PROJECTS = [
     liveUrl: "https://github.com/HansithaEkanayaka/Meal_Prepare_Application",
     githubUrl: "https://github.com/HansithaEkanayaka/Meal_Prepare_Application",
   },
+  {
+    name: "BuildX",
+    desc: "A multi-page responsive website with an interactive feedback form (star ratings, live preview, validation), team showcase, and shared navigation — built with vanilla HTML, CSS, and JS.",
+    image: "/img/buildX.jpg",
+    bgClass: "from-slate-900 via-purple-900 to-indigo-900",
+    stack: ["HTML5", "CSS3", "JavaScript"],
+    liveUrl: "https://github.com/HansithaEkanayaka/BuildX",
+    githubUrl: "https://github.com/HansithaEkanayaka/BuildX",
+  },
 ];
 
 export default function Projects() {

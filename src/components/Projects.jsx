@@ -42,7 +42,7 @@ const PROJECTS = [
     desc: "A meal-prep Android app that fetches meals from TheMealDB, saves them locally, and lets users search offline. Built under a strict no-third-party-library constraint — pure Compose UI, Room persistence, and HttpURLConnection networking.",
     emoji: "🍽️",
     bgClass: "proj-bg-1",
-    stack: ["Kotlin", "Android", "Jetpack", "Room DB ,Coroutines"],
+    stack: ["Kotlin", "Android", "Jetpack", "Room DB" ,"Coroutines"],
     liveUrl: "https://github.com/HansithaEkanayaka/Meal_Prepare_Application",
     githubUrl: "https://github.com/HansithaEkanayaka/Meal_Prepare_Application",
   },

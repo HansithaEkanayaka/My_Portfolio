@@ -19,6 +19,16 @@ const PROJECTS = [
   },
 
   {
+    name: "PastPaperZone – Sri Lankan Past Exam Papers Platform",
+    desc: "A full-stack past-exam-paper platform for Sri Lankan O/L and A/L students. Browse and download question papers and marking schemes by subject, year, and medium in Sinhala, English, or Tamil, save papers to your profile, and track weekly trending downloads. Includes a secure admin dashboard with upload analytics, automatic PDF watermarking, and a Telegram bot that delivers papers on request and auto-announces new uploads.",
+    image: "/img/pastpaperzone.jpg",
+    bgClass: "proj-bg-5",
+    badge: "Solo Project",
+    stack: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS", "Cloudflare R2", "Cloudflare Workers", "Telegram Bot API"],
+    liveUrl: "https://pastpaperzone.lk",
+    githubUrl: "https://github.com/HansithaEkanayaka/Past_paper_zone",
+  },
+  {
     name: "Smart Campus API",
     desc: "A RESTful API for managing a Smart Campus system — covering room management, IoT sensor registration, and historical sensor readings. Built with JAX-RS (Jersey 2.x) on Apache Tomcat 9, using thread-safe in-memory storage. Features HATEOAS navigation, clean error handling, and request logging via JAX-RS filters.",
     image: "/img/smartcampusapi.jpg",

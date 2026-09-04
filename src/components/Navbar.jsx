@@ -74,7 +74,7 @@ export default function Navbar() {
           <button className="theme-toggle" onClick={toggleTheme}>
             <i className={`fas ${lightTheme ? "fa-sun" : "fa-moon"}`} />
           </button>
-          <a href="/Hansitha Ekanayaka CV.pdf" className="nav-cta" download><i className="fas fa-download" /> CV</a>
+          <a href="/Hansitha_Ekanayaka_CV.pdf" className="nav-cta" download><i className="fas fa-download" /> CV</a>
           <button className={`ham ${menuOpen ? "open" : ""}`} onClick={toggleMenu}>
             <span />
             <span />
@@ -91,7 +91,7 @@ export default function Navbar() {
           </a>
         ))}
         <a
-          href="/Hansitha Ekanayaka CV.pdf"
+          href="/Hansitha_Ekanayaka_CV.pdf"
           className="nav-cta"
           download
           style={{ display: "inline-block", marginTop: "20px" }}
